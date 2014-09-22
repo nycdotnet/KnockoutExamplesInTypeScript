@@ -1,0 +1,16 @@
+{
+  "name": "KnockoutExamplesInTypeScript",
+  "version": "0.0.1",
+  "description": "Knockout.js examples using TypeScript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Knockout",
+    "Knockout.js",
+    "TypeScript"
+  ],
+  "author": "Steve Ognibene",
+  "license": "MIT"
+}

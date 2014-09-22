@@ -1,0 +1,25 @@
+{
+  "name": "KnockoutExamplesInTypeScript",
+  "version": "0.0.1",
+  "description": "Knockout.js examples in TypeScript",
+  "main": "index.html",
+  "keywords": [
+    "Knockout.js",
+    "Knockout",
+    "TypeScript"
+  ],
+  "authors": [
+    "Steve Ognibene"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "knockout": "~3.2.0"
+  }
+}
