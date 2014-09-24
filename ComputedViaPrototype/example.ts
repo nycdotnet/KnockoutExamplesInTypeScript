@@ -3,7 +3,7 @@
 class ComputedViaPrototypeViewModel {
 
     /* These lines are erased when the TypeScript is compiled.
-       It simply informs TypeScript that getFormatted will exist and what type it is.
+       They simply inform TypeScript that these members exist and what type they are.
        Declaring the publicly exposed members that use Knockout without instantiating
        them is required when you want to use a TypeScript constructor function since 
        in TypeScript, ambient declarations are run prior to the code in the constructor. */
@@ -15,7 +15,7 @@ class ComputedViaPrototypeViewModel {
        which designates "tag" as a retained field rather than just a function parameter. */
     constructor(name: string, public tag: string) {
         this.name = ko.observable(name);
-
+        
         /* Note that you must set up a Knockout computed *after* all of its dependencies are 
            defined because by default they are evaluated immediately upon creation. */
         this.formatted = ko.computed(this.getFormatted, this);
