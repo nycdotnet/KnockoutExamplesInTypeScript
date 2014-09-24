@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Knockout.js examples in TypeScript</title>
+</head>
+<body>
+    <h1>Knockout.js examples in TypeScript</h1>
+    <div id="content">
+        <div>
+            <strong>Typing here updates after every keydown:</strong> <input type="text" data-bind="value: name, valueUpdate: 'afterkeydown'" style="width: 200px" />
+        </div>
+        <div>
+            <strong>Typing here updates on "change" which is the default (hit tab):</strong> <input type="text" data-bind="value: name" style="width: 200px" />
+        </div>
+        <div>
+            <strong>What you typed plus the tag:</strong> <div data-bind="text: formatted"></div>
+        </div>
+        <div>
+            <a href="http://vimeo.com/51103092#t=451s">See an example of this from Ryan Niemeyer (in plain JS)</a>
+        </div>
+    </div>
+    <script src="..\bower_components\knockout\dist\knockout.js"></script>
+    <script src="example.js"></script>
+</body>
+</html>

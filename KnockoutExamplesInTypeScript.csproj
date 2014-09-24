@@ -18,6 +18,8 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="ComputedViaPrototype\index.html" />
+    <Content Include="ComputedObservable\index.html" />
     <Content Include="SimpleObservable\index.html" />
     <Content Include="index.html" />
     <Content Include="web.config" />
@@ -28,6 +30,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="ComputedViaPrototype\example.ts" />
+    <TypeScriptCompile Include="ComputedObservable\example.ts" />
     <TypeScriptCompile Include="SimpleObservable\example.ts" />
   </ItemGroup>
   <PropertyGroup>
