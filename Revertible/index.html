@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Knockout.js examples in TypeScript</title>
+</head>
+<body>
+    <h1>Knockout.js examples in TypeScript</h1>
+    <div id="content">
+        <div>
+            <strong>Product Name:</strong> <input type="text" data-bind="value: name, valueUpdate: 'afterkeydown'" style="width: 200px" />
+        </div>
+        <div>
+            <strong>Description:</strong> <input type="text" data-bind="value: description, valueUpdate: 'afterkeydown'" style="width: 200px" />
+        </div>
+        <div>
+            <strong>ID:</strong> <input type="text" data-bind="value: id, valueUpdate: 'afterkeydown'" style="width: 200px" />
+        </div>
+        <div>
+            <strong>Summary:</strong> <span data-bind="text: summary" style="width: 400px" ></span>
+        </div>
+        <div>
+            <input type="button" data-bind="click: revert, enable: revertible" value="Reset" />
+        </div>
+        <div>
+            <a href="http://vimeo.com/51103092#t=985s">See an example of this from Ryan Niemeyer (in plain JS)</a>
+        </div>
+    </div>
+    <script src="..\bower_components\knockout\dist\knockout.js"></script>
+    <script src="example.js"></script>
+</body>
+</html>

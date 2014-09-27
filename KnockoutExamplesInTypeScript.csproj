@@ -18,6 +18,7 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Revertible\index.html" />
     <Content Include="ComputedViaPrototype\index.html" />
     <Content Include="ComputedObservable\index.html" />
     <Content Include="SimpleObservable\index.html" />
@@ -30,6 +31,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="Revertible\example.ts" />
     <TypeScriptCompile Include="ComputedViaPrototype\example.ts" />
     <TypeScriptCompile Include="ComputedObservable\example.ts" />
     <TypeScriptCompile Include="SimpleObservable\example.ts" />
